@@ -1,0 +1,15 @@
+[Unit]
+Description=GoodWe Modbus Bridge
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=30
+TimeoutStopSec=15
+User=<username>
+ExecStart=/usr/bin/python /<path to goodwe_modbus>/goodwe_modbus.py <name or ip address of GoodWe>
+
+[Install]
+WantedBy=multi-user.target
