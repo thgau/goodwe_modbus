@@ -1,5 +1,6 @@
 # goodwe_modbus
-Bridge for GoodWe ET between EVCC modbus protocol and GoodWe WiFi access procotol 
+Bridge for GoodWe ET/DT between EVCC modbus protocol and GoodWe WiFi access procotol 
+If you have the new WIFI/Lan Dongle you dont need this for ET Hybrid Inverters, but for DT Inverters with the recent Firmware and WIFI/Lan Dongle this works.
 
 # Summary
 I want to connect [EVCC](https://github.com/evcc-io/evcc) with my GoodWe inverter, but the GoodWe does not support the modbus protocol with its WiFi adapter.
